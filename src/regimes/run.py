@@ -15,7 +15,8 @@ def run_regime_search(cfg, X, features, Y, scaler, forward_returns=None):
         trainer.evaluate(r["model"], Y, forward_returns)   # pass the model, not the dict
         for r in results
     ]
-
+    
+    
     archive.save(
         run,
         results=results,
@@ -24,4 +25,10 @@ def run_regime_search(cfg, X, features, Y, scaler, forward_returns=None):
         features=features,
         cfg=cfg,
     )
+    
+    for h in run.logger.handlers[:]:
+        h.close()
+        run.logger.removeHandler(h)
+        run.logger = None
+    
     return out, run.dir

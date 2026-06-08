@@ -6,7 +6,7 @@ setup:
   n_iter: 1000
 
 stock: 
-  ticker: AA
+  ticker: ASML
   start: 2017-01-01
   end: 2026-05-01
 
