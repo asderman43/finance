@@ -1,4 +1,5 @@
 import numpy as np
+from statsmodels.tsa.stattools import adfuller
 """
     Fractional difference module:
     made for representing time series data in a compact
@@ -24,7 +25,30 @@ def cutoff_find(order,cutoff,start_lags): #order is our dearest d, cutoff is 1e-
         val=w[len(w)-1]
         lags+=1
     return lags 
-
+def find_d(log_close, tau=1e-4, range_list=[0.2, 0.35], max_depth = 8, alpha=0.01, eps=0.001):
+    p_values = []
+    
+    left = range_list[0]
+    right = range_list[1]
+    if left > right:
+        raise Exception("First `range_list` item must be smaller than second item.")
+    for _ in range(max_depth):
+        mid = (left+right)/2.0
+        
+        frac_diff = differencing(log_close,mid,tau)
+        
+        p_value = adfuller(frac_diff)[1]
+        
+        p_values.append([mid, p_value, abs(p_value - alpha)])
+        
+        
+        
+        if p_value > alpha:
+            left = mid
+        else:
+            right = mid
+        
+    return p_values, frac_diff
 
 def differencing(time_series, order=0.33, tau=1e-4):
     """
