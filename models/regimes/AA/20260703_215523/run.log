@@ -1,0 +1,17 @@
+2026-07-03 21:55:23,282 | INFO | regime_run.AA.20260703_215523 | Run 20260703_215523 started for AA
+2026-07-03 21:55:23,282 | INFO | regime_run.AA.20260703_215523 | Fitting HMM: n_components=2, cov=full, seed=930680, n_iter=1000
+2026-07-03 21:55:23,410 | INFO | regime_run.AA.20260703_215523 | Done: n_components=2, seed=930680 -> score=-6069.0265, bic=12293.2857, aic=12180.0531
+2026-07-03 21:55:23,410 | INFO | regime_run.AA.20260703_215523 | New best: n_components=2, seed=930680, bic=12293.2857
+2026-07-03 21:55:23,410 | INFO | regime_run.AA.20260703_215523 | Fitting HMM: n_components=2, cov=full, seed=175328, n_iter=1000
+2026-07-03 21:55:23,509 | INFO | regime_run.AA.20260703_215523 | Done: n_components=2, seed=175328 -> score=-6069.0263, bic=12293.2852, aic=12180.0525
+2026-07-03 21:55:23,518 | INFO | regime_run.AA.20260703_215523 | New best: n_components=2, seed=175328, bic=12293.2852
+2026-07-03 21:55:23,519 | INFO | regime_run.AA.20260703_215523 | Fitting HMM: n_components=2, cov=full, seed=748720, n_iter=1000
+2026-07-03 21:55:23,603 | INFO | regime_run.AA.20260703_215523 | Done: n_components=2, seed=748720 -> score=-6069.0253, bic=12293.2833, aic=12180.0507
+2026-07-03 21:55:23,603 | INFO | regime_run.AA.20260703_215523 | New best: n_components=2, seed=748720, bic=12293.2833
+2026-07-03 21:55:23,603 | INFO | regime_run.AA.20260703_215523 | Search complete. Best: n_components=2, bic=12293.2833
+2026-07-03 21:55:23,610 | INFO | regime_run.AA.20260703_215523 | HMM eval: n_components=2, bic=14817.39, switch_rate=7.5%
+2026-07-03 21:55:23,617 | INFO | regime_run.AA.20260703_215523 | HMM eval: n_components=2, bic=14817.32, switch_rate=7.5%
+2026-07-03 21:55:23,625 | INFO | regime_run.AA.20260703_215523 | HMM eval: n_components=2, bic=14817.31, switch_rate=7.5%
+2026-07-03 21:55:23,629 | INFO | regime_run.AA.20260703_215523 | Saved seed_930680_2: n_components=2, bic=14817.39, switch_rate=7.5%
+2026-07-03 21:55:23,631 | INFO | regime_run.AA.20260703_215523 | Saved seed_175328_2: n_components=2, bic=14817.32, switch_rate=7.5%
+2026-07-03 21:55:23,636 | INFO | regime_run.AA.20260703_215523 | Saved seed_748720_2: n_components=2, bic=14817.31, switch_rate=7.5%

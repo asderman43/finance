@@ -1,0 +1,15 @@
+setup:
+  num_rand: 3
+  class_min: 2
+  class_max: 2
+  type: full
+  n_iter: 1000
+stock:
+  ticker: AA
+  start: '2017-01-01'
+  end: '2026-05-01'
+logging:
+  dir: c:\Users\tothk\Documents\Python\finance\logs\regimes
+  level: ERROR
+output:
+  dir: c:\Users\tothk\Documents\Python\finance\models\regimes

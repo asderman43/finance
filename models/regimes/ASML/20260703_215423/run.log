@@ -1,0 +1,16 @@
+2026-07-03 21:54:23,991 | INFO | regime_run.ASML.20260703_215423 | Run 20260703_215423 started for ASML
+2026-07-03 21:54:23,991 | INFO | regime_run.ASML.20260703_215423 | Fitting HMM: n_components=2, cov=full, seed=996661, n_iter=1000
+2026-07-03 21:54:24,065 | INFO | regime_run.ASML.20260703_215423 | Done: n_components=2, seed=996661 -> score=-6300.0483, bic=12756.8152, aic=12642.0967
+2026-07-03 21:54:24,065 | INFO | regime_run.ASML.20260703_215423 | New best: n_components=2, seed=996661, bic=12756.8152
+2026-07-03 21:54:24,065 | INFO | regime_run.ASML.20260703_215423 | Fitting HMM: n_components=2, cov=full, seed=170830, n_iter=1000
+2026-07-03 21:54:24,152 | INFO | regime_run.ASML.20260703_215423 | Done: n_components=2, seed=170830 -> score=-7235.7959, bic=14628.3103, aic=14513.5917
+2026-07-03 21:54:24,153 | INFO | regime_run.ASML.20260703_215423 | Fitting HMM: n_components=2, cov=full, seed=79982, n_iter=1000
+2026-07-03 21:54:24,233 | INFO | regime_run.ASML.20260703_215423 | Done: n_components=2, seed=79982 -> score=-6300.0477, bic=12756.8140, aic=12642.0954
+2026-07-03 21:54:24,233 | INFO | regime_run.ASML.20260703_215423 | New best: n_components=2, seed=79982, bic=12756.8140
+2026-07-03 21:54:24,233 | INFO | regime_run.ASML.20260703_215423 | Search complete. Best: n_components=2, bic=12756.8140
+2026-07-03 21:54:24,240 | INFO | regime_run.ASML.20260703_215423 | HMM eval: n_components=2, bic=15636.20, switch_rate=7.0%
+2026-07-03 21:54:24,247 | INFO | regime_run.ASML.20260703_215423 | HMM eval: n_components=2, bic=17800.83, switch_rate=100.0%
+2026-07-03 21:54:24,255 | INFO | regime_run.ASML.20260703_215423 | HMM eval: n_components=2, bic=15636.20, switch_rate=7.0%
+2026-07-03 21:54:24,259 | INFO | regime_run.ASML.20260703_215423 | Saved seed_996661_2: n_components=2, bic=15636.20, switch_rate=7.0%
+2026-07-03 21:54:24,261 | INFO | regime_run.ASML.20260703_215423 | Saved seed_170830_2: n_components=2, bic=17800.83, switch_rate=100.0%
+2026-07-03 21:54:24,265 | INFO | regime_run.ASML.20260703_215423 | Saved seed_79982_2: n_components=2, bic=15636.20, switch_rate=7.0%

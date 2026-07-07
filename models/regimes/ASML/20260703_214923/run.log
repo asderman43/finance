@@ -1,0 +1,15 @@
+2026-07-03 21:49:23,013 | INFO | regime_run.ASML.20260703_214923 | Run 20260703_214923 started for ASML
+2026-07-03 21:49:23,013 | INFO | regime_run.ASML.20260703_214923 | Fitting HMM: n_components=2, cov=full, seed=789157, n_iter=1000
+2026-07-03 21:49:23,117 | INFO | regime_run.ASML.20260703_214923 | Done: n_components=2, seed=789157 -> score=-2851.7515, bic=5796.2877, aic=5729.5030
+2026-07-03 21:49:23,118 | INFO | regime_run.ASML.20260703_214923 | New best: n_components=2, seed=789157, bic=5796.2877
+2026-07-03 21:49:23,118 | INFO | regime_run.ASML.20260703_214923 | Fitting HMM: n_components=2, cov=full, seed=316851, n_iter=1000
+2026-07-03 21:49:23,192 | INFO | regime_run.ASML.20260703_214923 | Done: n_components=2, seed=316851 -> score=-2946.0272, bic=5984.8391, aic=5918.0544
+2026-07-03 21:49:23,193 | INFO | regime_run.ASML.20260703_214923 | Fitting HMM: n_components=2, cov=full, seed=738723, n_iter=1000
+2026-07-03 21:49:23,275 | INFO | regime_run.ASML.20260703_214923 | Done: n_components=2, seed=738723 -> score=-2946.0533, bic=5984.8912, aic=5918.1066
+2026-07-03 21:49:23,275 | INFO | regime_run.ASML.20260703_214923 | Search complete. Best: n_components=2, bic=5796.2877
+2026-07-03 21:49:23,282 | INFO | regime_run.ASML.20260703_214923 | HMM eval: n_components=2, bic=10600.24, switch_rate=1.9%
+2026-07-03 21:49:23,289 | INFO | regime_run.ASML.20260703_214923 | HMM eval: n_components=2, bic=11218.42, switch_rate=6.0%
+2026-07-03 21:49:23,295 | INFO | regime_run.ASML.20260703_214923 | HMM eval: n_components=2, bic=11220.05, switch_rate=6.1%
+2026-07-03 21:49:23,299 | INFO | regime_run.ASML.20260703_214923 | Saved seed_789157_2: n_components=2, bic=10600.24, switch_rate=1.9%
+2026-07-03 21:49:23,301 | INFO | regime_run.ASML.20260703_214923 | Saved seed_316851_2: n_components=2, bic=11218.42, switch_rate=6.0%
+2026-07-03 21:49:23,305 | INFO | regime_run.ASML.20260703_214923 | Saved seed_738723_2: n_components=2, bic=11220.05, switch_rate=6.1%

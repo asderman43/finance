@@ -1,0 +1,44 @@
+2026-06-02 23:47:13,925 | INFO | regime_run.AA.20260602_234713 | Run 20260602_234713 started for AA
+2026-06-02 23:47:13,925 | INFO | regime_run.AA.20260602_234713 | Fitting HMM: n_components=2, cov=diag, seed=808863, n_iter=1000
+2026-06-02 23:47:13,997 | INFO | regime_run.AA.20260602_234713 | Done: n_components=2, seed=808863 -> score=-5155.3453, bic=10441.9950, aic=10348.6907
+2026-06-02 23:47:13,998 | INFO | regime_run.AA.20260602_234713 | New best: n_components=2, seed=808863, bic=10441.9950
+2026-06-02 23:47:13,998 | INFO | regime_run.AA.20260602_234713 | Fitting HMM: n_components=2, cov=diag, seed=373672, n_iter=1000
+2026-06-02 23:47:14,039 | INFO | regime_run.AA.20260602_234713 | Done: n_components=2, seed=373672 -> score=-5692.6473, bic=11516.5988, aic=11423.2945
+2026-06-02 23:47:14,040 | INFO | regime_run.AA.20260602_234713 | Fitting HMM: n_components=2, cov=diag, seed=865049, n_iter=1000
+2026-06-02 23:47:14,086 | INFO | regime_run.AA.20260602_234713 | Done: n_components=2, seed=865049 -> score=-5155.3465, bic=10441.9974, aic=10348.6931
+2026-06-02 23:47:14,086 | INFO | regime_run.AA.20260602_234713 | Fitting HMM: n_components=2, cov=diag, seed=364690, n_iter=1000
+2026-06-02 23:47:14,129 | INFO | regime_run.AA.20260602_234713 | Done: n_components=2, seed=364690 -> score=-5155.3469, bic=10441.9980, aic=10348.6937
+2026-06-02 23:47:14,129 | INFO | regime_run.AA.20260602_234713 | Fitting HMM: n_components=2, cov=diag, seed=836031, n_iter=1000
+2026-06-02 23:47:14,167 | INFO | regime_run.AA.20260602_234713 | Done: n_components=2, seed=836031 -> score=-5692.7165, bic=11516.7373, aic=11423.4331
+2026-06-02 23:47:14,167 | INFO | regime_run.AA.20260602_234713 | Fitting HMM: n_components=2, cov=diag, seed=906902, n_iter=1000
+2026-06-02 23:47:14,207 | INFO | regime_run.AA.20260602_234713 | Done: n_components=2, seed=906902 -> score=-5155.3472, bic=10441.9986, aic=10348.6943
+2026-06-02 23:47:14,207 | INFO | regime_run.AA.20260602_234713 | Fitting HMM: n_components=2, cov=diag, seed=965795, n_iter=1000
+2026-06-02 23:47:14,248 | INFO | regime_run.AA.20260602_234713 | Done: n_components=2, seed=965795 -> score=-5155.3456, bic=10441.9954, aic=10348.6912
+2026-06-02 23:47:14,248 | INFO | regime_run.AA.20260602_234713 | Fitting HMM: n_components=2, cov=diag, seed=785469, n_iter=1000
+2026-06-02 23:47:14,314 | INFO | regime_run.AA.20260602_234713 | Done: n_components=2, seed=785469 -> score=-5155.3261, bic=10441.9565, aic=10348.6522
+2026-06-02 23:47:14,314 | INFO | regime_run.AA.20260602_234713 | New best: n_components=2, seed=785469, bic=10441.9565
+2026-06-02 23:47:14,314 | INFO | regime_run.AA.20260602_234713 | Fitting HMM: n_components=2, cov=diag, seed=615012, n_iter=1000
+2026-06-02 23:47:14,358 | INFO | regime_run.AA.20260602_234713 | Done: n_components=2, seed=615012 -> score=-5155.3444, bic=10441.9931, aic=10348.6889
+2026-06-02 23:47:14,358 | INFO | regime_run.AA.20260602_234713 | Fitting HMM: n_components=3, cov=diag, seed=263558, n_iter=1000
+2026-06-02 23:47:14,409 | INFO | regime_run.AA.20260602_234713 | Done: n_components=3, seed=263558 -> score=-4789.4736, bic=9800.0913, aic=9642.9473
+2026-06-02 23:47:14,409 | INFO | regime_run.AA.20260602_234713 | New best: n_components=3, seed=263558, bic=9800.0913
+2026-06-02 23:47:14,409 | INFO | regime_run.AA.20260602_234713 | Fitting HMM: n_components=3, cov=diag, seed=296165, n_iter=1000
+2026-06-02 23:47:14,463 | INFO | regime_run.AA.20260602_234713 | Done: n_components=3, seed=296165 -> score=-5368.9261, bic=10958.9962, aic=10801.8522
+2026-06-02 23:47:14,463 | INFO | regime_run.AA.20260602_234713 | Fitting HMM: n_components=3, cov=diag, seed=275990, n_iter=1000
+2026-06-02 23:47:14,524 | INFO | regime_run.AA.20260602_234713 | Done: n_components=3, seed=275990 -> score=-5155.1804, bic=10531.5048, aic=10374.3607
+2026-06-02 23:47:14,524 | INFO | regime_run.AA.20260602_234713 | Fitting HMM: n_components=3, cov=diag, seed=441172, n_iter=1000
+2026-06-02 23:47:14,586 | INFO | regime_run.AA.20260602_234713 | Done: n_components=3, seed=441172 -> score=-4789.4733, bic=9800.0906, aic=9642.9465
+2026-06-02 23:47:14,586 | INFO | regime_run.AA.20260602_234713 | New best: n_components=3, seed=441172, bic=9800.0906
+2026-06-02 23:47:14,586 | INFO | regime_run.AA.20260602_234713 | Fitting HMM: n_components=3, cov=diag, seed=49719, n_iter=1000
+2026-06-02 23:47:14,647 | INFO | regime_run.AA.20260602_234713 | Done: n_components=3, seed=49719 -> score=-5154.9753, bic=10531.0946, aic=10373.9506
+2026-06-02 23:47:14,647 | INFO | regime_run.AA.20260602_234713 | Fitting HMM: n_components=3, cov=diag, seed=169171, n_iter=1000
+2026-06-02 23:47:14,698 | INFO | regime_run.AA.20260602_234713 | Done: n_components=3, seed=169171 -> score=-4830.2567, bic=9881.6574, aic=9724.5134
+2026-06-02 23:47:14,698 | INFO | regime_run.AA.20260602_234713 | Fitting HMM: n_components=3, cov=diag, seed=353445, n_iter=1000
+2026-06-02 23:47:14,766 | INFO | regime_run.AA.20260602_234713 | Done: n_components=3, seed=353445 -> score=-5088.8095, bic=10398.7630, aic=10241.6190
+2026-06-02 23:47:14,766 | INFO | regime_run.AA.20260602_234713 | Fitting HMM: n_components=3, cov=diag, seed=318268, n_iter=1000
+2026-06-02 23:47:14,825 | INFO | regime_run.AA.20260602_234713 | Done: n_components=3, seed=318268 -> score=-4789.4737, bic=9800.0913, aic=9642.9473
+2026-06-02 23:47:14,825 | INFO | regime_run.AA.20260602_234713 | Fitting HMM: n_components=3, cov=diag, seed=660301, n_iter=1000
+2026-06-02 23:47:14,889 | INFO | regime_run.AA.20260602_234713 | Done: n_components=3, seed=660301 -> score=-4787.0247, bic=9795.1934, aic=9638.0494
+2026-06-02 23:47:14,890 | INFO | regime_run.AA.20260602_234713 | New best: n_components=3, seed=660301, bic=9795.1934
+2026-06-02 23:47:14,890 | INFO | regime_run.AA.20260602_234713 | Search complete. Best: n_components=3, bic=9795.1934
+2026-06-02 23:47:14,906 | INFO | regime_run.AA.20260602_234713 | Saved run 20260602_234713: n_components=3, bic=9795.19, switch_rate=3.8%
